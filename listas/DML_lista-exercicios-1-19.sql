@@ -3,7 +3,7 @@ create database empresa;
 use empresa;
 create table Empregado(
 rg varchar(20) primary key,
-sexo enum('Feminino','Mascuino', 'Outro') not null,
+sexo enum('Feminino','Masculino', 'Outro') not null,
 dt_nasc date not null,
 pnome varchar(15) not null,
 unome varchar(50) not null,
